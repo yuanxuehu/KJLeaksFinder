@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6878BEC82C737ED200EE828F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6878BEC72C737ED200EE828F /* AppDelegate.m */; };
+		6878BECB2C737ED200EE828F /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6878BECA2C737ED200EE828F /* SceneDelegate.m */; };
+		6878BECE2C737ED200EE828F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6878BECD2C737ED200EE828F /* ViewController.m */; };
+		6878BED12C737ED200EE828F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6878BECF2C737ED200EE828F /* Main.storyboard */; };
+		6878BED32C737ED500EE828F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6878BED22C737ED500EE828F /* Assets.xcassets */; };
+		6878BED62C737ED500EE828F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6878BED42C737ED500EE828F /* LaunchScreen.storyboard */; };
+		6878BED92C737ED500EE828F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6878BED82C737ED500EE828F /* main.m */; };
+		6878BEE32C737ED500EE828F /* KJLeaksFinderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6878BEE22C737ED500EE828F /* KJLeaksFinderTests.m */; };
+		6878BEED2C737ED500EE828F /* KJLeaksFinderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6878BEEC2C737ED500EE828F /* KJLeaksFinderUITests.m */; };
+		6878BEEF2C737ED500EE828F /* KJLeaksFinderUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6878BEEE2C737ED500EE828F /* KJLeaksFinderUITestsLaunchTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6878BEDF2C737ED500EE828F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6878BEBB2C737ED200EE828F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6878BEC22C737ED200EE828F;
+			remoteInfo = KJLeaksFinder;
+		};
+		6878BEE92C737ED500EE828F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6878BEBB2C737ED200EE828F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6878BEC22C737ED200EE828F;
+			remoteInfo = KJLeaksFinder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6878BEC32C737ED200EE828F /* KJLeaksFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KJLeaksFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6878BEC62C737ED200EE828F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6878BEC72C737ED200EE828F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6878BEC92C737ED200EE828F /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		6878BECA2C737ED200EE828F /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		6878BECC2C737ED200EE828F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6878BECD2C737ED200EE828F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6878BED02C737ED200EE828F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6878BED22C737ED500EE828F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6878BED52C737ED500EE828F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6878BED72C737ED500EE828F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6878BED82C737ED500EE828F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6878BEDE2C737ED500EE828F /* KJLeaksFinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KJLeaksFinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6878BEE22C737ED500EE828F /* KJLeaksFinderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KJLeaksFinderTests.m; sourceTree = "<group>"; };
+		6878BEE82C737ED500EE828F /* KJLeaksFinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KJLeaksFinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6878BEEC2C737ED500EE828F /* KJLeaksFinderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KJLeaksFinderUITests.m; sourceTree = "<group>"; };
+		6878BEEE2C737ED500EE828F /* KJLeaksFinderUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KJLeaksFinderUITestsLaunchTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6878BEC02C737ED200EE828F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6878BEDB2C737ED500EE828F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6878BEE52C737ED500EE828F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6878BEBA2C737ED200EE828F = {
+			isa = PBXGroup;
+			children = (
+				6878BEC52C737ED200EE828F /* KJLeaksFinder */,
+				6878BEE12C737ED500EE828F /* KJLeaksFinderTests */,
+				6878BEEB2C737ED500EE828F /* KJLeaksFinderUITests */,
+				6878BEC42C737ED200EE828F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6878BEC42C737ED200EE828F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6878BEC32C737ED200EE828F /* KJLeaksFinder.app */,
+				6878BEDE2C737ED500EE828F /* KJLeaksFinderTests.xctest */,
+				6878BEE82C737ED500EE828F /* KJLeaksFinderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6878BEC52C737ED200EE828F /* KJLeaksFinder */ = {
+			isa = PBXGroup;
+			children = (
+				6878BEC62C737ED200EE828F /* AppDelegate.h */,
+				6878BEC72C737ED200EE828F /* AppDelegate.m */,
+				6878BEC92C737ED200EE828F /* SceneDelegate.h */,
+				6878BECA2C737ED200EE828F /* SceneDelegate.m */,
+				6878BECC2C737ED200EE828F /* ViewController.h */,
+				6878BECD2C737ED200EE828F /* ViewController.m */,
+				6878BECF2C737ED200EE828F /* Main.storyboard */,
+				6878BED22C737ED500EE828F /* Assets.xcassets */,
+				6878BED42C737ED500EE828F /* LaunchScreen.storyboard */,
+				6878BED72C737ED500EE828F /* Info.plist */,
+				6878BED82C737ED500EE828F /* main.m */,
+			);
+			path = KJLeaksFinder;
+			sourceTree = "<group>";
+		};
+		6878BEE12C737ED500EE828F /* KJLeaksFinderTests */ = {
+			isa = PBXGroup;
+			children = (
+				6878BEE22C737ED500EE828F /* KJLeaksFinderTests.m */,
+			);
+			path = KJLeaksFinderTests;
+			sourceTree = "<group>";
+		};
+		6878BEEB2C737ED500EE828F /* KJLeaksFinderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6878BEEC2C737ED500EE828F /* KJLeaksFinderUITests.m */,
+				6878BEEE2C737ED500EE828F /* KJLeaksFinderUITestsLaunchTests.m */,
+			);
+			path = KJLeaksFinderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6878BEC22C737ED200EE828F /* KJLeaksFinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6878BEF22C737ED500EE828F /* Build configuration list for PBXNativeTarget "KJLeaksFinder" */;
+			buildPhases = (
+				6878BEBF2C737ED200EE828F /* Sources */,
+				6878BEC02C737ED200EE828F /* Frameworks */,
+				6878BEC12C737ED200EE828F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KJLeaksFinder;
+			productName = KJLeaksFinder;
+			productReference = 6878BEC32C737ED200EE828F /* KJLeaksFinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6878BEDD2C737ED500EE828F /* KJLeaksFinderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6878BEF52C737ED500EE828F /* Build configuration list for PBXNativeTarget "KJLeaksFinderTests" */;
+			buildPhases = (
+				6878BEDA2C737ED500EE828F /* Sources */,
+				6878BEDB2C737ED500EE828F /* Frameworks */,
+				6878BEDC2C737ED500EE828F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6878BEE02C737ED500EE828F /* PBXTargetDependency */,
+			);
+			name = KJLeaksFinderTests;
+			productName = KJLeaksFinderTests;
+			productReference = 6878BEDE2C737ED500EE828F /* KJLeaksFinderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6878BEE72C737ED500EE828F /* KJLeaksFinderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6878BEF82C737ED500EE828F /* Build configuration list for PBXNativeTarget "KJLeaksFinderUITests" */;
+			buildPhases = (
+				6878BEE42C737ED500EE828F /* Sources */,
+				6878BEE52C737ED500EE828F /* Frameworks */,
+				6878BEE62C737ED500EE828F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6878BEEA2C737ED500EE828F /* PBXTargetDependency */,
+			);
+			name = KJLeaksFinderUITests;
+			productName = KJLeaksFinderUITests;
+			productReference = 6878BEE82C737ED500EE828F /* KJLeaksFinderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6878BEBB2C737ED200EE828F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					6878BEC22C737ED200EE828F = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					6878BEDD2C737ED500EE828F = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 6878BEC22C737ED200EE828F;
+					};
+					6878BEE72C737ED500EE828F = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 6878BEC22C737ED200EE828F;
+					};
+				};
+			};
+			buildConfigurationList = 6878BEBE2C737ED200EE828F /* Build configuration list for PBXProject "KJLeaksFinder" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6878BEBA2C737ED200EE828F;
+			productRefGroup = 6878BEC42C737ED200EE828F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6878BEC22C737ED200EE828F /* KJLeaksFinder */,
+				6878BEDD2C737ED500EE828F /* KJLeaksFinderTests */,
+				6878BEE72C737ED500EE828F /* KJLeaksFinderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6878BEC12C737ED200EE828F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6878BED62C737ED500EE828F /* LaunchScreen.storyboard in Resources */,
+				6878BED32C737ED500EE828F /* Assets.xcassets in Resources */,
+				6878BED12C737ED200EE828F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6878BEDC2C737ED500EE828F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6878BEE62C737ED500EE828F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6878BEBF2C737ED200EE828F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6878BECE2C737ED200EE828F /* ViewController.m in Sources */,
+				6878BEC82C737ED200EE828F /* AppDelegate.m in Sources */,
+				6878BED92C737ED500EE828F /* main.m in Sources */,
+				6878BECB2C737ED200EE828F /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6878BEDA2C737ED500EE828F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6878BEE32C737ED500EE828F /* KJLeaksFinderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6878BEE42C737ED500EE828F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6878BEEF2C737ED500EE828F /* KJLeaksFinderUITestsLaunchTests.m in Sources */,
+				6878BEED2C737ED500EE828F /* KJLeaksFinderUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6878BEE02C737ED500EE828F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6878BEC22C737ED200EE828F /* KJLeaksFinder */;
+			targetProxy = 6878BEDF2C737ED500EE828F /* PBXContainerItemProxy */;
+		};
+		6878BEEA2C737ED500EE828F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6878BEC22C737ED200EE828F /* KJLeaksFinder */;
+			targetProxy = 6878BEE92C737ED500EE828F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6878BECF2C737ED200EE828F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6878BED02C737ED200EE828F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6878BED42C737ED500EE828F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6878BED52C737ED500EE828F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6878BEF02C737ED500EE828F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6878BEF12C737ED500EE828F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6878BEF32C737ED500EE828F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6T2VWAK6CR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KJLeaksFinder/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuanxuehu.KJLeaksFinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6878BEF42C737ED500EE828F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6T2VWAK6CR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KJLeaksFinder/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuanxuehu.KJLeaksFinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6878BEF62C737ED500EE828F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6T2VWAK6CR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuanxuehu.KJLeaksFinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KJLeaksFinder.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KJLeaksFinder";
+			};
+			name = Debug;
+		};
+		6878BEF72C737ED500EE828F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6T2VWAK6CR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuanxuehu.KJLeaksFinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KJLeaksFinder.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KJLeaksFinder";
+			};
+			name = Release;
+		};
+		6878BEF92C737ED500EE828F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6T2VWAK6CR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuanxuehu.KJLeaksFinderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KJLeaksFinder;
+			};
+			name = Debug;
+		};
+		6878BEFA2C737ED500EE828F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6T2VWAK6CR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuanxuehu.KJLeaksFinderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KJLeaksFinder;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6878BEBE2C737ED200EE828F /* Build configuration list for PBXProject "KJLeaksFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6878BEF02C737ED500EE828F /* Debug */,
+				6878BEF12C737ED500EE828F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6878BEF22C737ED500EE828F /* Build configuration list for PBXNativeTarget "KJLeaksFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6878BEF32C737ED500EE828F /* Debug */,
+				6878BEF42C737ED500EE828F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6878BEF52C737ED500EE828F /* Build configuration list for PBXNativeTarget "KJLeaksFinderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6878BEF62C737ED500EE828F /* Debug */,
+				6878BEF72C737ED500EE828F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6878BEF82C737ED500EE828F /* Build configuration list for PBXNativeTarget "KJLeaksFinderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6878BEF92C737ED500EE828F /* Debug */,
+				6878BEFA2C737ED500EE828F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6878BEBB2C737ED200EE828F /* Project object */;
+}
