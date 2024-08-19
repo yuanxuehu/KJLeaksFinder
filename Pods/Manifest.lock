@@ -1,0 +1,20 @@
+PODS:
+  - AMLeaksFinder (2.2.8)
+  - FBRetainCycleDetector (0.1.4)
+
+DEPENDENCIES:
+  - AMLeaksFinder (= 2.2.8)
+  - FBRetainCycleDetector (= 0.1.4)
+
+SPEC REPOS:
+  trunk:
+    - AMLeaksFinder
+    - FBRetainCycleDetector
+
+SPEC CHECKSUMS:
+  AMLeaksFinder: c06ab15486dff283e49943329c77497d11f0d06a
+  FBRetainCycleDetector: 46f8179bbb1c587deee3ea838a1a3ee02acf5015
+
+PODFILE CHECKSUM: 563752de884443bb6e37e05f9b5bfe87fa459603
+
+COCOAPODS: 1.14.2

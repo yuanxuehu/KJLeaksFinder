@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B87DF358B68D52D29A186DB /* Pods_KJLeaksFinder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58348C4F2CA263DBD0DEB6EA /* Pods_KJLeaksFinder.framework */; };
 		6878BEC82C737ED200EE828F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6878BEC72C737ED200EE828F /* AppDelegate.m */; };
 		6878BECB2C737ED200EE828F /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6878BECA2C737ED200EE828F /* SceneDelegate.m */; };
 		6878BECE2C737ED200EE828F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6878BECD2C737ED200EE828F /* ViewController.m */; };
@@ -37,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		58348C4F2CA263DBD0DEB6EA /* Pods_KJLeaksFinder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KJLeaksFinder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6546A84FCFC3F97C52E9E9E0 /* Pods-KJLeaksFinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KJLeaksFinder.release.xcconfig"; path = "Target Support Files/Pods-KJLeaksFinder/Pods-KJLeaksFinder.release.xcconfig"; sourceTree = "<group>"; };
 		6878BEC32C737ED200EE828F /* KJLeaksFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KJLeaksFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6878BEC62C737ED200EE828F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6878BEC72C737ED200EE828F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +57,7 @@
 		6878BEE82C737ED500EE828F /* KJLeaksFinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KJLeaksFinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6878BEEC2C737ED500EE828F /* KJLeaksFinderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KJLeaksFinderUITests.m; sourceTree = "<group>"; };
 		6878BEEE2C737ED500EE828F /* KJLeaksFinderUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KJLeaksFinderUITestsLaunchTests.m; sourceTree = "<group>"; };
+		813AB45770BAADD5ED75A12D /* Pods-KJLeaksFinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KJLeaksFinder.debug.xcconfig"; path = "Target Support Files/Pods-KJLeaksFinder/Pods-KJLeaksFinder.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B87DF358B68D52D29A186DB /* Pods_KJLeaksFinder.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +86,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		213863FB1EBE3AA9EA7994B0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				813AB45770BAADD5ED75A12D /* Pods-KJLeaksFinder.debug.xcconfig */,
+				6546A84FCFC3F97C52E9E9E0 /* Pods-KJLeaksFinder.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		6878BEBA2C737ED200EE828F = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +103,8 @@
 				6878BEE12C737ED500EE828F /* KJLeaksFinderTests */,
 				6878BEEB2C737ED500EE828F /* KJLeaksFinderUITests */,
 				6878BEC42C737ED200EE828F /* Products */,
+				213863FB1EBE3AA9EA7994B0 /* Pods */,
+				880275C3E9A4ED8008343D69 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -136,6 +153,14 @@
 			path = KJLeaksFinderUITests;
 			sourceTree = "<group>";
 		};
+		880275C3E9A4ED8008343D69 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				58348C4F2CA263DBD0DEB6EA /* Pods_KJLeaksFinder.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,9 +168,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6878BEF22C737ED500EE828F /* Build configuration list for PBXNativeTarget "KJLeaksFinder" */;
 			buildPhases = (
+				9BE0BEE48D6FB533EAFF68D7 /* [CP] Check Pods Manifest.lock */,
 				6878BEBF2C737ED200EE828F /* Sources */,
 				6878BEC02C737ED200EE828F /* Frameworks */,
 				6878BEC12C737ED200EE828F /* Resources */,
+				0BC91A275F4AD4660EF5B757 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -260,6 +287,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0BC91A275F4AD4660EF5B757 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KJLeaksFinder/Pods-KJLeaksFinder-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KJLeaksFinder/Pods-KJLeaksFinder-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KJLeaksFinder/Pods-KJLeaksFinder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BE0BEE48D6FB533EAFF68D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KJLeaksFinder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6878BEBF2C737ED200EE828F /* Sources */ = {
@@ -437,6 +506,7 @@
 		};
 		6878BEF32C737ED500EE828F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 813AB45770BAADD5ED75A12D /* Pods-KJLeaksFinder.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -464,6 +534,7 @@
 		};
 		6878BEF42C737ED500EE828F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6546A84FCFC3F97C52E9E9E0 /* Pods-KJLeaksFinder.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
