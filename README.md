@@ -1,5 +1,5 @@
 # KJLeaksFinder
-iOS自动检测内存泄漏，支持Objective-C和Swift
+iOS自动检测内存泄漏工具，支持Objective-C和Swift
 
 iOS 在pod管理的第三方库中, 引用另一个pod管理的第三方库
 AMLeaksFinder依赖FBRetainCycleDetector
